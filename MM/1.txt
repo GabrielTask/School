@@ -1,0 +1,7 @@
+Z (zero), C (carry), N (negative) and V (overflow).
+
+
+
+The C or “carry” flag was set above whenever an addition or subtraction required
+ a carry. I also mentioned above how the carry flag on the ZipCPU is also set for 
+shift operations. All other operations clear the carry flag.
